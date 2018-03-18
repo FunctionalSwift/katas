@@ -10,6 +10,10 @@
 		D6C24374205E6DF2008AF35F /* FibonacciKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24373205E6DF2008AF35F /* FibonacciKata.swift */; };
 		D6C24375205E6DF2008AF35F /* FibonacciKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24373205E6DF2008AF35F /* FibonacciKata.swift */; };
 		D6C24377205E6DFE008AF35F /* FibonacciKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24376205E6DFE008AF35F /* FibonacciKataTests.swift */; };
+		D6C24393205E98AB008AF35F /* ReduceKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24391205E98AB008AF35F /* ReduceKata.swift */; };
+		D6C24394205E98AB008AF35F /* ReduceKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24391205E98AB008AF35F /* ReduceKata.swift */; };
+		D6C24395205E98AB008AF35F /* ReduceKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24392205E98AB008AF35F /* ReduceKataTests.swift */; };
+		D6C24396205E98AB008AF35F /* ReduceKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24392205E98AB008AF35F /* ReduceKataTests.swift */; };
 		OBJ_29 /* katas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "katas::katas::Product" /* katas.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +30,8 @@
 /* Begin PBXFileReference section */
 		D6C24373205E6DF2008AF35F /* FibonacciKata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciKata.swift; sourceTree = "<group>"; };
 		D6C24376205E6DFE008AF35F /* FibonacciKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciKataTests.swift; sourceTree = "<group>"; };
+		D6C24391205E98AB008AF35F /* ReduceKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduceKata.swift; sourceTree = "<group>"; };
+		D6C24392205E98AB008AF35F /* ReduceKataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduceKataTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"katas::katas::Product" /* katas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = katas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"katas::katasTests::Product" /* katasTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = katasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +59,7 @@
 		D6C2436A205E6CB9008AF35F /* recursion */ = {
 			isa = PBXGroup;
 			children = (
+				D6C2438F205E98AB008AF35F /* reduce */,
 				D6C24372205E6DCF008AF35F /* fibonacci */,
 			);
 			path = recursion;
@@ -65,6 +72,15 @@
 				D6C24376205E6DFE008AF35F /* FibonacciKataTests.swift */,
 			);
 			path = fibonacci;
+			sourceTree = "<group>";
+		};
+		D6C2438F205E98AB008AF35F /* reduce */ = {
+			isa = PBXGroup;
+			children = (
+				D6C24391205E98AB008AF35F /* ReduceKata.swift */,
+				D6C24392205E98AB008AF35F /* ReduceKataTests.swift */,
+			);
+			path = reduce;
 			sourceTree = "<group>";
 		};
 		OBJ_13 /* Products */ = {
@@ -170,6 +186,8 @@
 			buildActionMask = 0;
 			files = (
 				D6C24377205E6DFE008AF35F /* FibonacciKataTests.swift in Sources */,
+				D6C24393205E98AB008AF35F /* ReduceKata.swift in Sources */,
+				D6C24395205E98AB008AF35F /* ReduceKataTests.swift in Sources */,
 				D6C24374205E6DF2008AF35F /* FibonacciKata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,7 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				D6C24394205E98AB008AF35F /* ReduceKata.swift in Sources */,
 				D6C24375205E6DF2008AF35F /* FibonacciKata.swift in Sources */,
+				D6C24396205E98AB008AF35F /* ReduceKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,14 +1,14 @@
 # Task
 
-Implement `List.reduce` using recursion.
+Implement `Array.reduce` using recursion. Unlike array's standard reduce this function should not receive an accumulator, it should use the first element of the list as the initial value.
 
-`reduce` behaves exactly likes `fold`, but instead of receiving an accumulator it uses the first element of the list as the initial value.
+If the list is empty it should throw a `listCannotBeEmpty` error.
 
-If you want to use the provided tests the function must be called `reduceKt` and must be inside the `recursion.reduce` package.
+If you want to use the provided tests the function must be in a Array extension and have to be the following signature `func reduce(_ operation: (Element, Element) -> Element) throws -> Element`.
 
 ## Arguments
 
-* operation: Function to use as the reduction step. Like the `List.reduce` `operation` parameter, it should be a function with the following type: `(A, A) -> A` where `A` is the type of the elements of the collection.
+* operation: Function to use as the reduction step. It should be a function with the following type: `(Element, Element) -> Element` where `Element` is the type of the elements of the collection.
 
 ## Example
 
@@ -21,7 +21,7 @@ try list.reduce(+) // "functionalhub.com"
 ## Conditions
 
 * Do not use any loops.
-* Do not use any `List` methods like `reduce` (but you can create it).
+* Do not use any `Array` methods like `reduce` (but you can create them).
 
 ## Solution
 
