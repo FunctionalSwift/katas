@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6C2436D205E6CFB008AF35F /* AddingMultiplyingKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2436C205E6CFB008AF35F /* AddingMultiplyingKata.swift */; };
+		D6C24370205E6D19008AF35F /* AddingMultipliyingKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2436E205E6D17008AF35F /* AddingMultipliyingKataTests.swift */; };
+		D6C24371205E6D1B008AF35F /* AddingMultiplyingKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2436C205E6CFB008AF35F /* AddingMultiplyingKata.swift */; };
 		D6C24374205E6DF2008AF35F /* FibonacciKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24373205E6DF2008AF35F /* FibonacciKata.swift */; };
 		D6C24375205E6DF2008AF35F /* FibonacciKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24373205E6DF2008AF35F /* FibonacciKata.swift */; };
 		D6C24377205E6DFE008AF35F /* FibonacciKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24376205E6DFE008AF35F /* FibonacciKataTests.swift */; };
@@ -28,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6C2436C205E6CFB008AF35F /* AddingMultiplyingKata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingMultiplyingKata.swift; sourceTree = "<group>"; };
+		D6C2436E205E6D17008AF35F /* AddingMultipliyingKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingMultipliyingKataTests.swift; sourceTree = "<group>"; };
 		D6C24373205E6DF2008AF35F /* FibonacciKata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciKata.swift; sourceTree = "<group>"; };
 		D6C24376205E6DFE008AF35F /* FibonacciKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciKataTests.swift; sourceTree = "<group>"; };
 		D6C24391205E98AB008AF35F /* ReduceKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduceKata.swift; sourceTree = "<group>"; };
@@ -61,8 +66,18 @@
 			children = (
 				D6C2438F205E98AB008AF35F /* reduce */,
 				D6C24372205E6DCF008AF35F /* fibonacci */,
+				D6C2436B205E6CE9008AF35F /* addingmultipliying */,
 			);
 			path = recursion;
+			sourceTree = "<group>";
+		};
+		D6C2436B205E6CE9008AF35F /* addingmultipliying */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2436C205E6CFB008AF35F /* AddingMultiplyingKata.swift */,
+				D6C2436E205E6D17008AF35F /* AddingMultipliyingKataTests.swift */,
+			);
+			path = addingmultipliying;
 			sourceTree = "<group>";
 		};
 		D6C24372205E6DCF008AF35F /* fibonacci */ = {
@@ -185,10 +200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				D6C24371205E6D1B008AF35F /* AddingMultiplyingKata.swift in Sources */,
 				D6C24377205E6DFE008AF35F /* FibonacciKataTests.swift in Sources */,
 				D6C24393205E98AB008AF35F /* ReduceKata.swift in Sources */,
 				D6C24395205E98AB008AF35F /* ReduceKataTests.swift in Sources */,
 				D6C24374205E6DF2008AF35F /* FibonacciKata.swift in Sources */,
+				D6C24370205E6D19008AF35F /* AddingMultipliyingKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +214,7 @@
 			buildActionMask = 0;
 			files = (
 				D6C24394205E98AB008AF35F /* ReduceKata.swift in Sources */,
+				D6C2436D205E6CFB008AF35F /* AddingMultiplyingKata.swift in Sources */,
 				D6C24375205E6DF2008AF35F /* FibonacciKata.swift in Sources */,
 				D6C24396205E98AB008AF35F /* ReduceKataTests.swift in Sources */,
 			);
