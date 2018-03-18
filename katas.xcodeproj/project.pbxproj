@@ -16,7 +16,15 @@
 		D6C24393205E98AB008AF35F /* ReduceKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24391205E98AB008AF35F /* ReduceKata.swift */; };
 		D6C24394205E98AB008AF35F /* ReduceKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24391205E98AB008AF35F /* ReduceKata.swift */; };
 		D6C24395205E98AB008AF35F /* ReduceKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24392205E98AB008AF35F /* ReduceKataTests.swift */; };
-		D6C24396205E98AB008AF35F /* ReduceKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24392205E98AB008AF35F /* ReduceKataTests.swift */; };
+		D6C2439A205EB882008AF35F /* CurryingKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24399205EB882008AF35F /* CurryingKata.swift */; };
+		D6C2439B205EB882008AF35F /* CurryingKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C24399205EB882008AF35F /* CurryingKata.swift */; };
+		D6C2439D205EB88C008AF35F /* CurryingKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2439C205EB88C008AF35F /* CurryingKataTests.swift */; };
+		D6C243A2205EC0AF008AF35F /* CPSKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C243A0205EC0AF008AF35F /* CPSKata.swift */; };
+		D6C243A3205EC0AF008AF35F /* CPSKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C243A0205EC0AF008AF35F /* CPSKata.swift */; };
+		D6C243A4205EC0AF008AF35F /* CPSKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C243A1205EC0AF008AF35F /* CPSKataTests.swift */; };
+		D6C243A9205EC885008AF35F /* PartialKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C243A7205EC885008AF35F /* PartialKata.swift */; };
+		D6C243AA205EC885008AF35F /* PartialKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C243A7205EC885008AF35F /* PartialKata.swift */; };
+		D6C243AD205EC88A008AF35F /* PartialKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C243A8205EC885008AF35F /* PartialKataTests.swift */; };
 		OBJ_29 /* katas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "katas::katas::Product" /* katas.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +45,12 @@
 		D6C24376205E6DFE008AF35F /* FibonacciKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciKataTests.swift; sourceTree = "<group>"; };
 		D6C24391205E98AB008AF35F /* ReduceKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduceKata.swift; sourceTree = "<group>"; };
 		D6C24392205E98AB008AF35F /* ReduceKataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduceKataTests.swift; sourceTree = "<group>"; };
+		D6C24399205EB882008AF35F /* CurryingKata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurryingKata.swift; sourceTree = "<group>"; };
+		D6C2439C205EB88C008AF35F /* CurryingKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurryingKataTests.swift; sourceTree = "<group>"; };
+		D6C243A0205EC0AF008AF35F /* CPSKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPSKata.swift; sourceTree = "<group>"; };
+		D6C243A1205EC0AF008AF35F /* CPSKataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPSKataTests.swift; sourceTree = "<group>"; };
+		D6C243A7205EC885008AF35F /* PartialKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialKata.swift; sourceTree = "<group>"; };
+		D6C243A8205EC885008AF35F /* PartialKataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialKataTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"katas::katas::Product" /* katas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = katas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"katas::katasTests::Product" /* katasTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = katasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +112,43 @@
 			path = reduce;
 			sourceTree = "<group>";
 		};
+		D6C24397205EB7F7008AF35F /* functions */ = {
+			isa = PBXGroup;
+			children = (
+				D6C243A6205EC885008AF35F /* partial */,
+				D6C2439F205EC0AF008AF35F /* CPS */,
+				D6C24398205EB7F7008AF35F /* currying */,
+			);
+			path = functions;
+			sourceTree = "<group>";
+		};
+		D6C24398205EB7F7008AF35F /* currying */ = {
+			isa = PBXGroup;
+			children = (
+				D6C24399205EB882008AF35F /* CurryingKata.swift */,
+				D6C2439C205EB88C008AF35F /* CurryingKataTests.swift */,
+			);
+			path = currying;
+			sourceTree = "<group>";
+		};
+		D6C2439F205EC0AF008AF35F /* CPS */ = {
+			isa = PBXGroup;
+			children = (
+				D6C243A0205EC0AF008AF35F /* CPSKata.swift */,
+				D6C243A1205EC0AF008AF35F /* CPSKataTests.swift */,
+			);
+			path = CPS;
+			sourceTree = "<group>";
+		};
+		D6C243A6205EC885008AF35F /* partial */ = {
+			isa = PBXGroup;
+			children = (
+				D6C243A7205EC885008AF35F /* PartialKata.swift */,
+				D6C243A8205EC885008AF35F /* PartialKataTests.swift */,
+			);
+			path = partial;
+			sourceTree = "<group>";
+		};
 		OBJ_13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +178,7 @@
 		OBJ_8 /* katas */ = {
 			isa = PBXGroup;
 			children = (
+				D6C24397205EB7F7008AF35F /* functions */,
 				D6C2436A205E6CB9008AF35F /* recursion */,
 			);
 			name = katas;
@@ -201,11 +253,17 @@
 			buildActionMask = 0;
 			files = (
 				D6C24371205E6D1B008AF35F /* AddingMultiplyingKata.swift in Sources */,
+				D6C243A2205EC0AF008AF35F /* CPSKata.swift in Sources */,
+				D6C2439D205EB88C008AF35F /* CurryingKataTests.swift in Sources */,
 				D6C24377205E6DFE008AF35F /* FibonacciKataTests.swift in Sources */,
 				D6C24393205E98AB008AF35F /* ReduceKata.swift in Sources */,
 				D6C24395205E98AB008AF35F /* ReduceKataTests.swift in Sources */,
+				D6C243A9205EC885008AF35F /* PartialKata.swift in Sources */,
 				D6C24374205E6DF2008AF35F /* FibonacciKata.swift in Sources */,
+				D6C2439A205EB882008AF35F /* CurryingKata.swift in Sources */,
 				D6C24370205E6D19008AF35F /* AddingMultipliyingKataTests.swift in Sources */,
+				D6C243A4205EC0AF008AF35F /* CPSKataTests.swift in Sources */,
+				D6C243AD205EC88A008AF35F /* PartialKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,9 +272,11 @@
 			buildActionMask = 0;
 			files = (
 				D6C24394205E98AB008AF35F /* ReduceKata.swift in Sources */,
+				D6C243AA205EC885008AF35F /* PartialKata.swift in Sources */,
 				D6C2436D205E6CFB008AF35F /* AddingMultiplyingKata.swift in Sources */,
 				D6C24375205E6DF2008AF35F /* FibonacciKata.swift in Sources */,
-				D6C24396205E98AB008AF35F /* ReduceKataTests.swift in Sources */,
+				D6C2439B205EB882008AF35F /* CurryingKata.swift in Sources */,
+				D6C243A3205EC0AF008AF35F /* CPSKata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
