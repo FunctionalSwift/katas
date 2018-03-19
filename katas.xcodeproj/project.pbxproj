@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D61876B6205EEB0500C09FD5 /* MapKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876B5205EEB0500C09FD5 /* MapKata.swift */; };
+		D61876BA205EEB6600C09FD5 /* MapKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876B7205EEB3200C09FD5 /* MapKataTests.swift */; };
+		D61876BE205EEDF800C09FD5 /* FilterMapKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876BC205EEDEB00C09FD5 /* FilterMapKata.swift */; };
+		D61876BF205EEDF800C09FD5 /* FilterMapKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876BC205EEDEB00C09FD5 /* FilterMapKata.swift */; };
+		D61876C1205EEE3000C09FD5 /* FilterMapKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876C0205EEE3000C09FD5 /* FilterMapKataTests.swift */; };
+		D61876CA205EEFB200C09FD5 /* FlatMapSimpleKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876C8205EEF9200C09FD5 /* FlatMapSimpleKata.swift */; };
+		D61876CB205EEFB200C09FD5 /* FlatMapSimpleKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876C8205EEF9200C09FD5 /* FlatMapSimpleKata.swift */; };
+		D61876CC205EEFB500C09FD5 /* FlatMapAdvancedKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876C5205EEF9200C09FD5 /* FlatMapAdvancedKata.swift */; };
+		D61876CD205EEFB500C09FD5 /* FlatMapAdvancedKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876C5205EEF9200C09FD5 /* FlatMapAdvancedKata.swift */; };
+		D61876CF205EF02000C09FD5 /* FlatMapSimpleKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876CE205EF02000C09FD5 /* FlatMapSimpleKataTests.swift */; };
+		D61876D5205EF18200C09FD5 /* FlatMapAdvancedKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876D4205EF18200C09FD5 /* FlatMapAdvancedKataTests.swift */; };
+		D61876D8205EF2E700C09FD5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876D7205EF2E700C09FD5 /* Extensions.swift */; };
+		D61876D9205EF2E700C09FD5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876D7205EF2E700C09FD5 /* Extensions.swift */; };
+		D61876DD205FA17000C09FD5 /* ReduceFunctionKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876DC205FA13400C09FD5 /* ReduceFunctionKata.swift */; };
+		D61876DE205FA17000C09FD5 /* ReduceFunctionKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876DC205FA13400C09FD5 /* ReduceFunctionKata.swift */; };
+		D61876E0205FA17F00C09FD5 /* ReduceFunctionKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876DF205FA17F00C09FD5 /* ReduceFunctionKataTests.swift */; };
+		D61876E5205FA30500C09FD5 /* MapReduceKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876E3205FA2FB00C09FD5 /* MapReduceKata.swift */; };
+		D61876E6205FA30500C09FD5 /* MapReduceKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876E3205FA2FB00C09FD5 /* MapReduceKata.swift */; };
+		D61876E8205FA32800C09FD5 /* MapReduceKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876E7205FA32800C09FD5 /* MapReduceKataTests.swift */; };
+		D61876EE205FA70700C09FD5 /* ZipKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876ED205FA70700C09FD5 /* ZipKataTests.swift */; };
+		D61876F0205FAA0000C09FD5 /* ZipKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876EC205FA6F200C09FD5 /* ZipKata.swift */; };
+		D61876F1205FAA0100C09FD5 /* ZipKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61876EC205FA6F200C09FD5 /* ZipKata.swift */; };
+		D625D2E1205EE2E800232EA8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625D2E0205EE2E800232EA8 /* Models.swift */; };
+		D625D2E2205EE2E800232EA8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625D2E0205EE2E800232EA8 /* Models.swift */; };
+		D625D2E5205EE6A200232EA8 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625D2E3205EE6A200232EA8 /* DataSource.swift */; };
+		D625D2E6205EE78100232EA8 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625D2E3205EE6A200232EA8 /* DataSource.swift */; };
 		D6C2436D205E6CFB008AF35F /* AddingMultiplyingKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2436C205E6CFB008AF35F /* AddingMultiplyingKata.swift */; };
 		D6C24370205E6D19008AF35F /* AddingMultipliyingKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2436E205E6D17008AF35F /* AddingMultipliyingKataTests.swift */; };
 		D6C24371205E6D1B008AF35F /* AddingMultiplyingKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2436C205E6CFB008AF35F /* AddingMultiplyingKata.swift */; };
@@ -39,6 +65,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D61876B5205EEB0500C09FD5 /* MapKata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKata.swift; sourceTree = "<group>"; };
+		D61876B7205EEB3200C09FD5 /* MapKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKataTests.swift; sourceTree = "<group>"; };
+		D61876BC205EEDEB00C09FD5 /* FilterMapKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterMapKata.swift; sourceTree = "<group>"; };
+		D61876C0205EEE3000C09FD5 /* FilterMapKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterMapKataTests.swift; sourceTree = "<group>"; };
+		D61876C5205EEF9200C09FD5 /* FlatMapAdvancedKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatMapAdvancedKata.swift; sourceTree = "<group>"; };
+		D61876C8205EEF9200C09FD5 /* FlatMapSimpleKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatMapSimpleKata.swift; sourceTree = "<group>"; };
+		D61876CE205EF02000C09FD5 /* FlatMapSimpleKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapSimpleKataTests.swift; sourceTree = "<group>"; };
+		D61876D4205EF18200C09FD5 /* FlatMapAdvancedKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapAdvancedKataTests.swift; sourceTree = "<group>"; };
+		D61876D7205EF2E700C09FD5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D61876DC205FA13400C09FD5 /* ReduceFunctionKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduceFunctionKata.swift; sourceTree = "<group>"; };
+		D61876DF205FA17F00C09FD5 /* ReduceFunctionKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceFunctionKataTests.swift; sourceTree = "<group>"; };
+		D61876E3205FA2FB00C09FD5 /* MapReduceKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapReduceKata.swift; sourceTree = "<group>"; };
+		D61876E7205FA32800C09FD5 /* MapReduceKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapReduceKataTests.swift; sourceTree = "<group>"; };
+		D61876EC205FA6F200C09FD5 /* ZipKata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipKata.swift; sourceTree = "<group>"; };
+		D61876ED205FA70700C09FD5 /* ZipKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipKataTests.swift; sourceTree = "<group>"; };
+		D625D2E0205EE2E800232EA8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D625D2E3205EE6A200232EA8 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		D6C2436C205E6CFB008AF35F /* AddingMultiplyingKata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingMultiplyingKata.swift; sourceTree = "<group>"; };
 		D6C2436E205E6D17008AF35F /* AddingMultipliyingKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingMultipliyingKataTests.swift; sourceTree = "<group>"; };
 		D6C24373205E6DF2008AF35F /* FibonacciKata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciKata.swift; sourceTree = "<group>"; };
@@ -75,6 +118,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D61876BB205EEDEB00C09FD5 /* filtermap */ = {
+			isa = PBXGroup;
+			children = (
+				D61876BC205EEDEB00C09FD5 /* FilterMapKata.swift */,
+				D61876C0205EEE3000C09FD5 /* FilterMapKataTests.swift */,
+			);
+			path = filtermap;
+			sourceTree = "<group>";
+		};
+		D61876C3205EEF9200C09FD5 /* flatMap */ = {
+			isa = PBXGroup;
+			children = (
+				D61876C7205EEF9200C09FD5 /* simple */,
+				D61876C4205EEF9200C09FD5 /* advanced */,
+			);
+			path = flatMap;
+			sourceTree = "<group>";
+		};
+		D61876C4205EEF9200C09FD5 /* advanced */ = {
+			isa = PBXGroup;
+			children = (
+				D61876C5205EEF9200C09FD5 /* FlatMapAdvancedKata.swift */,
+				D61876D4205EF18200C09FD5 /* FlatMapAdvancedKataTests.swift */,
+			);
+			path = advanced;
+			sourceTree = "<group>";
+		};
+		D61876C7205EEF9200C09FD5 /* simple */ = {
+			isa = PBXGroup;
+			children = (
+				D61876C8205EEF9200C09FD5 /* FlatMapSimpleKata.swift */,
+				D61876CE205EF02000C09FD5 /* FlatMapSimpleKataTests.swift */,
+			);
+			path = simple;
+			sourceTree = "<group>";
+		};
+		D61876DA205FA13400C09FD5 /* reduce */ = {
+			isa = PBXGroup;
+			children = (
+				D61876DC205FA13400C09FD5 /* ReduceFunctionKata.swift */,
+				D61876DF205FA17F00C09FD5 /* ReduceFunctionKataTests.swift */,
+			);
+			path = reduce;
+			sourceTree = "<group>";
+		};
+		D61876E2205FA2FB00C09FD5 /* mapreduce */ = {
+			isa = PBXGroup;
+			children = (
+				D61876E3205FA2FB00C09FD5 /* MapReduceKata.swift */,
+				D61876E7205FA32800C09FD5 /* MapReduceKataTests.swift */,
+			);
+			path = mapreduce;
+			sourceTree = "<group>";
+		};
+		D61876EA205FA6F200C09FD5 /* zip */ = {
+			isa = PBXGroup;
+			children = (
+				D61876EC205FA6F200C09FD5 /* ZipKata.swift */,
+				D61876ED205FA70700C09FD5 /* ZipKataTests.swift */,
+			);
+			path = zip;
+			sourceTree = "<group>";
+		};
+		D625D2DD205EE28100232EA8 /* functional */ = {
+			isa = PBXGroup;
+			children = (
+				D625D2DE205EE28100232EA8 /* transforms */,
+			);
+			path = functional;
+			sourceTree = "<group>";
+		};
+		D625D2DE205EE28100232EA8 /* transforms */ = {
+			isa = PBXGroup;
+			children = (
+				D61876D7205EF2E700C09FD5 /* Extensions.swift */,
+				D61876EA205FA6F200C09FD5 /* zip */,
+				D61876E2205FA2FB00C09FD5 /* mapreduce */,
+				D61876DA205FA13400C09FD5 /* reduce */,
+				D61876C3205EEF9200C09FD5 /* flatMap */,
+				D61876BB205EEDEB00C09FD5 /* filtermap */,
+				D625D2DF205EE28100232EA8 /* map */,
+				D625D2E0205EE2E800232EA8 /* Models.swift */,
+				D625D2E3205EE6A200232EA8 /* DataSource.swift */,
+			);
+			path = transforms;
+			sourceTree = "<group>";
+		};
+		D625D2DF205EE28100232EA8 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				D61876B5205EEB0500C09FD5 /* MapKata.swift */,
+				D61876B7205EEB3200C09FD5 /* MapKataTests.swift */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
 		D6C2436A205E6CB9008AF35F /* recursion */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +317,7 @@
 		OBJ_8 /* katas */ = {
 			isa = PBXGroup;
 			children = (
+				D625D2DD205EE28100232EA8 /* functional */,
 				D6C24397205EB7F7008AF35F /* functions */,
 				D6C2436A205E6CB9008AF35F /* recursion */,
 			);
@@ -252,18 +392,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				D61876D8205EF2E700C09FD5 /* Extensions.swift in Sources */,
+				D61876D5205EF18200C09FD5 /* FlatMapAdvancedKataTests.swift in Sources */,
+				D625D2E6205EE78100232EA8 /* DataSource.swift in Sources */,
+				D61876E5205FA30500C09FD5 /* MapReduceKata.swift in Sources */,
+				D61876E8205FA32800C09FD5 /* MapReduceKataTests.swift in Sources */,
 				D6C24371205E6D1B008AF35F /* AddingMultiplyingKata.swift in Sources */,
+				D61876BF205EEDF800C09FD5 /* FilterMapKata.swift in Sources */,
+				D61876B6205EEB0500C09FD5 /* MapKata.swift in Sources */,
+				D61876EE205FA70700C09FD5 /* ZipKataTests.swift in Sources */,
 				D6C243A2205EC0AF008AF35F /* CPSKata.swift in Sources */,
 				D6C2439D205EB88C008AF35F /* CurryingKataTests.swift in Sources */,
+				D625D2E1205EE2E800232EA8 /* Models.swift in Sources */,
+				D61876E0205FA17F00C09FD5 /* ReduceFunctionKataTests.swift in Sources */,
 				D6C24377205E6DFE008AF35F /* FibonacciKataTests.swift in Sources */,
+				D61876F0205FAA0000C09FD5 /* ZipKata.swift in Sources */,
+				D61876CC205EEFB500C09FD5 /* FlatMapAdvancedKata.swift in Sources */,
 				D6C24393205E98AB008AF35F /* ReduceKata.swift in Sources */,
 				D6C24395205E98AB008AF35F /* ReduceKataTests.swift in Sources */,
 				D6C243A9205EC885008AF35F /* PartialKata.swift in Sources */,
+				D61876CF205EF02000C09FD5 /* FlatMapSimpleKataTests.swift in Sources */,
+				D61876C1205EEE3000C09FD5 /* FilterMapKataTests.swift in Sources */,
 				D6C24374205E6DF2008AF35F /* FibonacciKata.swift in Sources */,
+				D61876CB205EEFB200C09FD5 /* FlatMapSimpleKata.swift in Sources */,
 				D6C2439A205EB882008AF35F /* CurryingKata.swift in Sources */,
 				D6C24370205E6D19008AF35F /* AddingMultipliyingKataTests.swift in Sources */,
+				D61876DE205FA17000C09FD5 /* ReduceFunctionKata.swift in Sources */,
 				D6C243A4205EC0AF008AF35F /* CPSKataTests.swift in Sources */,
 				D6C243AD205EC88A008AF35F /* PartialKataTests.swift in Sources */,
+				D61876BA205EEB6600C09FD5 /* MapKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,11 +428,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				D625D2E2205EE2E800232EA8 /* Models.swift in Sources */,
 				D6C24394205E98AB008AF35F /* ReduceKata.swift in Sources */,
 				D6C243AA205EC885008AF35F /* PartialKata.swift in Sources */,
+				D61876F1205FAA0100C09FD5 /* ZipKata.swift in Sources */,
+				D61876CD205EEFB500C09FD5 /* FlatMapAdvancedKata.swift in Sources */,
 				D6C2436D205E6CFB008AF35F /* AddingMultiplyingKata.swift in Sources */,
 				D6C24375205E6DF2008AF35F /* FibonacciKata.swift in Sources */,
 				D6C2439B205EB882008AF35F /* CurryingKata.swift in Sources */,
+				D61876CA205EEFB200C09FD5 /* FlatMapSimpleKata.swift in Sources */,
+				D61876DD205FA17000C09FD5 /* ReduceFunctionKata.swift in Sources */,
+				D61876E6205FA30500C09FD5 /* MapReduceKata.swift in Sources */,
+				D61876D9205EF2E700C09FD5 /* Extensions.swift in Sources */,
+				D625D2E5205EE6A200232EA8 /* DataSource.swift in Sources */,
+				D61876BE205EEDF800C09FD5 /* FilterMapKata.swift in Sources */,
 				D6C243A3205EC0AF008AF35F /* CPSKata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
