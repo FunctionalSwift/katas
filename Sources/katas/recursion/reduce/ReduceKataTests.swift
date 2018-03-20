@@ -29,4 +29,10 @@ class ReduceKataTests: XCTestCase {
 			XCTAssertEqual(error as! ReduceError, ReduceError.listCannotBeEmpty)
 		}
 	}
+
+	static var allTests = [
+		("testReduceWithPlusShouldJoinAllStrings", testReduceWithPlusShouldJoinAllStrings),
+		("testReduceShouldCalculateFactorial", testReduceShouldCalculateFactorial),
+		("testReduceShouldThrowIfListIsEmpty", testReduceShouldThrowIfListIsEmpty)
+	]
 }

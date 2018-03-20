@@ -15,4 +15,9 @@ class CurryingKataTests: XCTestCase {
 
 		XCTAssertEqual("hello", concatCurried("he")("llo"))
 	}
+
+	static var allTests = [
+		("testCurryFunctionShouldCurryPlusFunction", testCurryFunctionShouldCurryPlusFunction),
+		("testCurryFunctionShouldCurryConcatFunction", testCurryFunctionShouldCurryConcatFunction),
+	]
 }

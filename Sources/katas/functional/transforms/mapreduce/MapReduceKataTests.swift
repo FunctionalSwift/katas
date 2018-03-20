@@ -9,5 +9,9 @@ class MapReduceKataTests: XCTestCase {
 
 		XCTAssertEqual(largestUrl, getUrlOfLargestBoxArt(list: moviesDemo))
 	}
+
+	static var allTests = [
+		("testGetUrlOfLargestBoxArtIstheLargest", testGetUrlOfLargestBoxArtIstheLargest)
+	]
 }
 

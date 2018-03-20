@@ -11,5 +11,9 @@ class FlatMapSimpleKataTests: XCTestCase {
 
 		XCTAssertEqual(moviesIds, moviesIdsFlatMap)
 	}
+
+	static var allTests = [
+		("testGetAllMoviesIdsShoulReturnValidList", testGetAllMoviesIdsShoulReturnValidList)
+	]
 }
 

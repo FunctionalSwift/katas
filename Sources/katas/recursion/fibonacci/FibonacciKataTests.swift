@@ -13,4 +13,8 @@ class FibonacciKataTests: XCTestCase {
 			XCTAssertEqual(element, fibonacci(index: index))
 		}
 	}
+
+	static var allTests = [
+		("testFibonnacciShouldReturnNumbersInPosition", testFibonnacciShouldReturnNumbersInPosition)
+	]
 }

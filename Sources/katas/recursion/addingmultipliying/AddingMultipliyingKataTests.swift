@@ -11,5 +11,9 @@ class AddingMultipliyingKataTests: XCTestCase {
 		XCTAssertFalse(canReach(n: 10, add: 5, multiply: 3))
 		XCTAssertTrue(canReach(n: 100, add: 1, multiply: 1))
 	}
+
+	static var allTests = [
+		("testCanReachShouldWorkForCertainCombinations", testCanReachShouldWorkForCertainCombinations)
+	]
 }
 

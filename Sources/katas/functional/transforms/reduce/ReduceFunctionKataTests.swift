@@ -7,5 +7,9 @@ class ReduceFunctionKataTests: XCTestCase {
 	func testGetLargestRatingShouldReturnLargestRating() {
 		XCTAssertEqual(5.0, getLargestRating(list: moviesDemo))
 	}
+
+	static var allTests = [
+		("testGetLargestRatingShouldReturnLargestRating", testGetLargestRatingShouldReturnLargestRating)
+	]
 }
 

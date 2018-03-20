@@ -17,6 +17,8 @@ class MapKataTests: XCTestCase {
 		XCTAssertEqual(dict, moviesDict)
 	}
 
-
+	static var allTests = [
+		("testShouldReturnValidMap", testShouldReturnValidMap)
+	]
 }
 

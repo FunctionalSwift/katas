@@ -11,4 +11,8 @@ class PartialKataTests: XCTestCase {
 		XCTAssertEqual(Element(type: "Blog", position: "Fixed", id: 3), element1)
 		XCTAssertEqual(Element(type: "Blog", position: "Fixed", id: 42), element2)
 	}
+
+	static var allTests = [
+		("testPartialMustReturnAPartiallyAppliedConstructor", testPartialMustReturnAPartiallyAppliedConstructor)
+	]
 }

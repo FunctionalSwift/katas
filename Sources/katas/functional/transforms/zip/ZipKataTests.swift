@@ -14,5 +14,9 @@ class ZipKataTests: XCTestCase {
 
 		XCTAssertEqual(filmsAnActors, getFirstActorMap(movies: moviesDemo, casts: castsDemo))
 	}
+
+	static var allTests = [
+		("testGetFirstActorMapShouldReturnCorrectMap", testGetFirstActorMapShouldReturnCorrectMap),
+	]
 }
 

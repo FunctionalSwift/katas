@@ -18,8 +18,8 @@ class FlatMapAdvancedKataTests: XCTestCase {
 		XCTAssertTrue(compareMoviesDict(dict1: movies, dict2: moviesFlatMap))
 	}
 
-	func compareDicts() {
-		
-	}
+	static var allTests = [
+		("testGetAllMoviesInformationShouldReturnValidList", testGetAllMoviesInformationShouldReturnValidList)
+	]
 }
 

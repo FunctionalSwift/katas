@@ -27,4 +27,9 @@ class CPSKataTests: XCTestCase {
 		XCTAssertNil(result)
 		XCTAssertNotNil(error)
 	}
+
+	static var allTests = [
+		("testPerformOperationCPSShouldCallOnSuccessIfTrue", testPerformOperationCPSShouldCallOnSuccessIfTrue),
+		("testPerformOperationCPSShouldCallOnErrorIfFalse", testPerformOperationCPSShouldCallOnErrorIfFalse),
+	]
 }

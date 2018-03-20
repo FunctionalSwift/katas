@@ -92,6 +92,21 @@ class FunctorKataTests: XCTestCase {
 
 		XCTAssertEqual(3, result as! Int)
 	}
+
+	static var allTests = [
+		("testGetShouldReturnValueWhenSuccess", testGetShouldReturnValueWhenSuccess),
+		("testGetShouldThrowErrorWhenFailure", testGetShouldThrowErrorWhenFailure),
+		("testFilterOverSuccessShouldFilterValidValue", testFilterOverSuccessShouldFilterValidValue),
+		("testFilterOverSuccessShouldFailIfInvalidValue", testFilterOverSuccessShouldFailIfInvalidValue),
+		("testIsSuccessShouldReturnFalseWhenFailure", testIsSuccessShouldReturnFalseWhenFailure),
+		("testIsSuccessShouldReturnTrueWhenSuccess", testIsSuccessShouldReturnTrueWhenSuccess),
+		("testIsFailureShouldReturnFalseWhenSuccess", testIsFailureShouldReturnFalseWhenSuccess),
+		("testIsFailureShouldReturnTrueWhenFailure", testIsFailureShouldReturnTrueWhenFailure),
+		("testMapShouldTransformTheValueIfSuccess", testMapShouldTransformTheValueIfSuccess),
+		("testMapShouldReturnOriginalErrorIfFailure", testMapShouldReturnOriginalErrorIfFailure),
+		("testFoldOnSuccessShouldReturnResultFromSecondParameter", testFoldOnSuccessShouldReturnResultFromSecondParameter),
+		("testFoldOnFailureShouldReturnResultFromFirstParameter", testFoldOnFailureShouldReturnResultFromFirstParameter)
+	]
 }
 
 func shouldThrow<E: Error & Equatable>(error: E, fn: () throws -> ()) {

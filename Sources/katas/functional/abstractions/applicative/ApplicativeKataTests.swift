@@ -39,5 +39,10 @@ class ApplicativeKataTests: XCTestCase {
 			_ = try value.get()
 		}
 	}
+
+	static var allTests = [
+		("testApplyParameterShouldWorkIfAllParametersAreCorrect", testApplyParameterShouldWorkIfAllParametersAreCorrect),
+		("testApplyParameterShouldFailIfAnyParameterIsIncorrect", testApplyParameterShouldFailIfAnyParameterIsIncorrect)
+	]
 }
 

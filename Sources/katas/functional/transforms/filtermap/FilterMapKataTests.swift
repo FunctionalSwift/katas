@@ -11,5 +11,9 @@ class FilterMapKataTests: XCTestCase {
 
 		XCTAssertEqual(ratings, moviesRatings)
 	}
+
+	static var allTests = [
+		("testGetFiveRatingMoviesIdsShoulReturnValidList", testGetFiveRatingMoviesIdsShoulReturnValidList)
+	]
 }
 

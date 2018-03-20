@@ -26,5 +26,10 @@ class MonadKataTests: XCTestCase {
 			_ = try aTry.get()
 		}
 	}
+
+	static var allTests = [
+		("testFlatMapShouldTransformIfSuccess", testFlatMapShouldTransformIfSuccess),
+		("testFlatMapShouldFailIfFailure", testFlatMapShouldFailIfFailure)
+	]
 }
 

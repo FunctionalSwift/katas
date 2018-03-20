@@ -39,5 +39,11 @@ class MonoidKataTests: XCTestCase {
 
 		XCTAssertEqual("Hello! Hi!", try! aTry.get() as! String)
 	}
+
+	static var allTests = [
+		("testPlusShoulReturnFailureIfFirstTryIsFailure", testPlusShoulReturnFailureIfFirstTryIsFailure),
+		("testPlusShouldReturnFailureIfSecondTryIsFailure", testPlusShouldReturnFailureIfSecondTryIsFailure),
+		("testShouldConcatIfBothAreSuccess", testShouldConcatIfBothAreSuccess)
+	]
 }
 
