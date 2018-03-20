@@ -10,7 +10,7 @@ Use the `moviesDemo` field inside [DataSource.swift](https://github.com/Function
 
 ## Example
 
-```kotlin
+```swift
 get(movies: moviesDemo)
 
 /*
